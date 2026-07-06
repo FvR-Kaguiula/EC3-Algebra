@@ -83,7 +83,7 @@ def main_large_scale_example():
     # --- 5. INTERPRETACIÓN DE RESULTADOS ---
     print(f"\n{Colors.BLUE}[PASO 3] 🔍 Interpretación y Análisis de Conexiones...{Colors.ENDC}")
     time.sleep(1.5)
-    results = interpret_results(M_k_result, NODES, k)
+    results = interpret_results(M_k_result, M_matrix, NODES, k)
     
     print(f"\n{Colors.GREEN}✅ TOP 10 CONEXIONES INDIRECTAS ENCONTRADAS (Ranking por N° de Caminos):{Colors.ENDC}")
     time.sleep(0.5)
